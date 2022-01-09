@@ -1,0 +1,144 @@
+.center {
+  position: relative;
+  margin: auto;
+  margin-top: auto;
+  padding: 10px;
+  text-align: center;
+  /* border: 1px solid red; */
+  width: 50%;
+  height: 500px;
+}
+#Vector {
+  /* fill: rgb(90, 156, 218); */
+  /* stroke: rgb(100, 100, 156); */
+  animation: vector 5s ease-in-out infinite alternate;
+}
+#reset,
+#pause,
+#start {
+  cursor: pointer;
+}
+#reset {
+  /* fill: rgb(240, 25, 25); */
+  stroke-width: 4;
+  transition: 3s;
+  /* stroke: black; */
+  animation: reset 3s infinite alternate;
+}
+#pause {
+  /* fill: rgb(255, 222, 37); */
+  stroke-width: 2;
+  /* stroke: black; */
+  transition: 3s;
+
+  animation: pause 3s infinite alternate;
+}
+#start {
+  /* fill: rgb(107, 235, 34); */
+  stroke-width: 2;
+  /* stroke: black; */
+  transition: 3s;
+
+  animation: start 3s ease-in-out infinite alternate;
+}
+/* #start:hover {
+  
+}
+#pause:hover {
+  
+}
+#reset:hover {
+
+} */
+
+#con {
+  font-size: 10vw;
+  font-weight: bold;
+  position: absolute;
+  width: 100%;
+  top: 42%;
+  right: 0%;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  #con {
+    font-size: 10vw;
+    width: 100%;
+    top: 49%;
+    right: 0%;
+  }
+  .center {
+    margin: 100px auto;
+    height: auto;
+  }
+}
+
+/* @media only screen and (max-width: 1200px) {
+  #con {
+    font-size: 10vw;
+    width: 100%;
+    top: 35%;
+    right: 0%;
+  }
+} */
+
+#line {
+  color: rgb(0, 255, 234);
+}
+/* For Animation */
+@keyframes reset {
+  from {
+    stroke-width: 4;
+    fill: red;
+    stroke: green;
+  }
+  to {
+    stroke-width: 5;
+    fill: green;
+    stroke: #ffff00;
+  }
+}
+@keyframes start {
+  from {
+    stroke-width: 3;
+    fill: green;
+    stroke: yellow;
+  }
+  to {
+    stroke-width: 4;
+    fill: yellow;
+    stroke: red;
+  }
+}
+@keyframes pause {
+  from {
+    stroke-width: 2;
+    fill: rgb(251, 255, 0);
+    stroke: red;
+  }
+  to {
+    stroke-width: 4;
+    fill: red;
+    stroke: green;
+  }
+}
+@keyframes vector {
+  from {
+    stroke-width: 7;
+    fill: rgb(0, 121, 235);
+    stroke: rgb(13, 13, 233);
+  }
+  to {
+    stroke-width: 8;
+    fill: rgb(16, 16, 240);
+    stroke: rgb(21, 134, 240);
+  }
+}

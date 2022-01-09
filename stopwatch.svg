@@ -1,0 +1,11 @@
+<svg width="130" height="160" viewBox="0 0 130 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="stopwatch">
+<path id="dial" d="M65 156.5C98.9655 156.5 126.5 128.966 126.5 95C126.5 61.0345 98.9655 33.5 65 33.5C31.0345 33.5 3.5 61.0345 3.5 95C3.5 128.966 31.0345 156.5 65 156.5Z" fill="white" stroke="#333333" stroke-width="7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="Reset">
+<path id="Vector" d="M45.586 3.5H84.416V18.5H45.586V3.5Z" fill="#333333" stroke="#333333" stroke-width="7" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M56 14H74V32H56V14Z" fill="#333333"/>
+</g>
+<path id="Restart" d="M4.188 46.916L16.916 34.188L26.816 44.088L14.086 56.816L4.188 46.916Z" fill="#333333" stroke="#333333" stroke-width="6.99993" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Pause" d="M115.912 56.818L103.184 44.09L113.084 34.19L125.81 46.918L115.912 56.818Z" fill="#333333" stroke="#333333" stroke-width="6.99993" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

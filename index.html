@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Timer</title>
+    <link rel="icon" href="stopwatch.svg" />
+  </head>
+  <body>
+    <div class="center">
+      <svg width="100%" height="100%" viewBox="0 0 131 161" fill="none">
+        <g id="timer new">
+          <path
+            id="Vector"
+            d="M65.5 156.5C99.4655 156.5 127 128.966 127 95C127 61.0345 99.4655 33.5 65.5 33.5C31.5345 33.5 4 61.0345 4 95C4 128.966 31.5345 156.5 65.5 156.5Z"
+            stroke="#333333"
+            stroke-width="7"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            id="reset"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M49.086 0.5C47.4291 0.5 46.086 1.84315 46.086 3.5V12.5C46.086 14.1569 47.4291 15.5 49.086 15.5H56.5V29H74.5V15.5H81.916C83.5729 15.5 84.916 14.1569 84.916 12.5V3.5C84.916 1.84315 83.5728 0.5 81.916 0.5H49.086Z"
+            fill="#333333"
+            onclick="reset()"
+            title="Click to Reset"
+          />
+          <path
+            id="start"
+            d="M4.688 46.916L17.416 34.188L27.316 44.088L14.586 56.816L4.688 46.916Z"
+            fill="#333333"
+            stroke="#333333"
+            stroke-width="6.99993"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            onclick="start()"
+            title="Click to Start"
+          />
+          <path
+            id="pause"
+            d="M116.412 56.818L103.684 44.09L113.584 34.19L126.31 46.918L116.412 56.818Z"
+            fill="#333333"
+            stroke="#333333"
+            stroke-width="6.99993"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            onclick="pause()"
+            title="Click to Pause"
+          />
+          <!-- <defs>
+            <path
+              id="line"
+              d="M36 132.5H950.5"
+              stroke="black"
+              fill="black"
+              stroke-opacity="1"
+              stroke-linecap="round"
+            />
+          </defs>
+
+          <text><textPath id="text" xlink:href="#line">0</textPath></text> -->
+        </g>
+      </svg>
+      <div id="con">
+        <div id="line">0</div>
+      </div>
+    </div>
+    <h2>Click Green to start or Press: s</h2>
+    <h2>Click Yellow to Pause or press: p</h2>
+    <h2>Click Brown to reset or press: r</h2>
+    <!-- <audio preload="auto" id="start-audio" src="start.wav"></audio>
+    <audio id="reset-audio" src="reset.wav"></audio>
+    <audio id="pause-audio" src="pause.wav"></audio> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
