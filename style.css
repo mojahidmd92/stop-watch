@@ -105,7 +105,7 @@ h2 {
   }
   to {
     stroke-width: 5;
-    fill: green;
+    fill: red;
     stroke: #ffff00;
   }
 }
@@ -117,7 +117,7 @@ h2 {
   }
   to {
     stroke-width: 4;
-    fill: yellow;
+    fill: green;
     stroke: red;
   }
 }
@@ -129,7 +129,7 @@ h2 {
   }
   to {
     stroke-width: 4;
-    fill: red;
+    fill: #ffff00;
     stroke: green;
   }
 }
