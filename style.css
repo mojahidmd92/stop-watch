@@ -1,3 +1,6 @@
+body {
+  background-color: black;
+}
 .center {
   position: relative;
   margin: auto;
